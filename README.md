@@ -1,11 +1,12 @@
-# Crypto
-The purpose of this app is to demo the implementation of https://cryptopals.com/
+# FilePerm
+The purpose of this app is to clear all filer permissions of an entire set of files
 
 ## To begin using this repo 
 #### Follow these steps to set up this application
-Note: This application requires dotnet core version 2.2 running on a Mac on Linux (should run on Windows too minus the shell script)
+Note: This application requires dotnet core version 2.2
 ``` bash
-  git clone https://github.com/JohnCongerCC/crypto.git
-  cd crypto
-  ./test.sh
+  git clone https://github.com/JohnCongerCC/FilePerm.git
+  cd FilePerm
+  dotnet restore
+  dotnet run .\FilePerm.csproj
 ```
